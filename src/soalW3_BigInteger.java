@@ -1,7 +1,7 @@
 import java.util.*;
 import java.math.*;
 
-public class soal6_BigInteger {
+public class soalW3_BigInteger {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         BigInteger a = input.nextBigInteger();

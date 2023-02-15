@@ -1,4 +1,4 @@
-public class soal7_Array {
+public class soalW3_Array {
     public static void main(String[] args) {
     //isi value array tsb
     int[] arraySatu = {2, 5, 3};

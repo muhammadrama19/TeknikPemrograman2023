@@ -1,5 +1,5 @@
 import java.util.*;
-public class soal1_io {
+public class soalW3_io_1 {
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();

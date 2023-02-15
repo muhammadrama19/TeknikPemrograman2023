@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class soal3_berhitung{
+public class soalW3_berhitung{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class soal4_gajiAgent {
+public class soalW3_gajiAgent {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int sales = sc.nextInt();

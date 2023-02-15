@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class soal5_bukaTutupJln {
+public class soalW3_bukaTutupJln {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
