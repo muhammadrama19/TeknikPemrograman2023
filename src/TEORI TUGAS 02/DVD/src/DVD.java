@@ -57,7 +57,7 @@ class FilmDVD extends DVD {
         System.out.println("Pemeran: " + String.join(", ", getPemeran()));
         System.out.println("Sutradara: " + getSutradara());
         System.out.println("Publisher: " + getPublisher());
-        System.out.println("Kategori: " + getKategoriName());
+        System.out.println("Kategori: " + getKategoriNameFilm());
         System.out.println("Stock: " + getStock());
         System.out.println();
     }
@@ -71,7 +71,7 @@ class FilmDVD extends DVD {
         return sutradara;
     }
 
-    public String getKategoriName() {
+    public String getKategoriNameFilm() {
         switch (getKategori()) {
             case "SU":
                 return "Semua Umur";
@@ -107,7 +107,7 @@ class MusicDVD extends DVD {
         System.out.println("Produser: " + getProduser());
         System.out.println("Publisher: " + getPublisher());
         System.out.println("Top Hits: " + String.join(", ", getTopHits()));
-        System.out.println("Kategori: " + getKategoriName());
+        System.out.println("Kategori: " + getKategoriNameMusic());
         System.out.println("Stock: " + getStock());
         System.out.println();
     }
@@ -124,7 +124,7 @@ class MusicDVD extends DVD {
         return topHits;
     }
 
-    public String getKategoriName() {
+    public String getKategoriNameMusic() {
         switch (getKategori()) {
             case "C":
                 return "Classic";
