@@ -14,7 +14,7 @@ abstract class DVD {
         this.stock = stock;
     }
 
-    // Abstract method to be implemented by child classes
+    // abstract untuk di child class
     public abstract void display();
 
     // Getters and setters
@@ -22,24 +22,12 @@ abstract class DVD {
         return judul;
     }
 
-    public void setJudul(String judul) {
-        this.judul = judul;
-    }
-
     public String getPublisher() {
         return publisher;
     }
 
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
-    }
-
     public String getKategori() {
         return kategori;
-    }
-
-    public void setKategori(String kategori) {
-        this.kategori = kategori;
     }
 
     public int getStock() {
@@ -62,7 +50,7 @@ class FilmDVD extends DVD {
         this.sutradara = sutradara;
     }
 
-    // Override the abstract display method from parent class
+    // Override the abstract display method dari parent 
     @Override
     public void display() {
         System.out.println("Judul: " + getJudul());
@@ -79,16 +67,8 @@ class FilmDVD extends DVD {
         return pemeran;
     }
 
-    public void setPemeran(String[] pemeran) {
-        this.pemeran = pemeran;
-    }
-
     public String getSutradara() {
         return sutradara;
-    }
-
-    public void setSutradara(String sutradara) {
-        this.sutradara = sutradara;
     }
 
     public String getKategoriName() {
@@ -119,7 +99,7 @@ class MusicDVD extends DVD {
         this.topHits = topHits.split(",");
     }
 
-    // Override the abstract display method from parent class
+    // Override the abstract display method dari parent
     @Override
     public void display() {
         System.out.println("Judul: " + getJudul());
@@ -132,29 +112,16 @@ class MusicDVD extends DVD {
         System.out.println();
     }
 
-    // Getters and setters
+  
     public String getPenyanyi() {
         return penyanyi;
     }
-
-    public void setPenyanyi(String penyanyi) {
-        this.penyanyi = penyanyi;
-    }
-
     public String getProduser() {
         return produser;
     }
 
-    public void setProduser(String produser) {
-        this.produser = produser;
-    }
-
     public String[] getTopHits() {
         return topHits;
-    }
-
-    public void setTopHits(String[] topHits) {
-        this.topHits = topHits;
     }
 
     public String getKategoriName() {
