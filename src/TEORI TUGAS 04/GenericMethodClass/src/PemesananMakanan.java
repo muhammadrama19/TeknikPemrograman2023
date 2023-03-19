@@ -9,9 +9,9 @@ public class PemesananMakanan{
         Order<Seblak> SeblakOrder = new Order<>(seblakPedas, 1, 8.99);
         Order<Nasgor> NasgorOrder = new Order<>(NasgorKambing, 3, 23.97);
 
-        System.out.println(BasoOrder.getjmlh() + " " + BasoOrder.getItemMakanan().getNama() + " Baso: " + BasoOrder.getTotalHarga());
-        System.out.println(SeblakOrder.getjmlh() + " " + SeblakOrder.getItemMakanan().getNama() + " Seblak: " + SeblakOrder.getTotalHarga());
-        System.out.println(NasgorOrder.getjmlh() + " " + NasgorOrder.getItemMakanan().getNama() + " Nasgor: " + NasgorOrder.getTotalHarga());
+        System.out.println(BasoOrder.getjmlh() + " Porsi " + BasoOrder.getItemMakanan().getNama() + " Seharga: " + BasoOrder.getTotalHarga());
+        System.out.println(SeblakOrder.getjmlh() + " Porsi " + SeblakOrder.getItemMakanan().getNama() + " Seharga: " + SeblakOrder.getTotalHarga());
+        System.out.println(NasgorOrder.getjmlh() + " Porsi " + NasgorOrder.getItemMakanan().getNama() + " Seharga: " + NasgorOrder.getTotalHarga());
     }
 }
 
